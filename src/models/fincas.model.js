@@ -33,4 +33,4 @@ const FincasSchema = new mongoose.Schema(
 
 // Exportacion
 
-module.exports = mongoose.model('fincas', FincasSchema)
+module.exports = model('fincas', FincasSchema)
